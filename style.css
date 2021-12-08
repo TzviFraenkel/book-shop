@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(250, 241, 229);
+    direction: ltr;
+}
+
+body.rtl {
+    direction: rtl;
+}
+table {
+    margin: auto;
+}
+
+.modal {
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    top: 150%;
+    transition: top 1s;
+}
+.modal.shown {
+    top: 50%;
+}
+
+.add-new-book{
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    
+}
+.add-new-book.open {
+    display: block;
+}
